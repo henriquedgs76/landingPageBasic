@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cortes de Cabelo Solidários</title>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+    <h1>Barbearia Garagem dos Cortes</h1>
+    <p>Estamos oferecendo cortes de cabelo grátis para crianças que não têm acesso fácil a serviços de barbearia.</p>
+    <p>Para participar, preencha o formulário abaixo com as informações da criança e de seus pais.</p>
+    <form id="formulario" action="http://localhost:3000/formulario" method="post">
+        <label for="nome">Nome da criança:</label>
+        <input type="text" id="nome" name="nome">
+        <br>
+        <label for="dataNascimento">Data de nascimento:</label>
+        <input type="date" id="dataNascimento" name="dataNascimento">
+        <br>
+        <label for="nomePai">Nome do pai:</label>
+        <input type="text" id="nomePai" name="nomePai">
+        <br>
+        <label for="nomeMae">Nome da mãe:</label>
+        <input type="text" id="nomeMae" name="nomeMae">
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+    <footer>&copy; Desenvolvido por Douglas Henrique - 2024</footer>
+</body>
+</html>
